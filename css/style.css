@@ -4,7 +4,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.wrapper {
+/*.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto 500px 200px auto;
@@ -59,7 +59,7 @@ a {
   grid-row: 3 / 4;
   background: grey;
   padding: 20px;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .wrapper {
