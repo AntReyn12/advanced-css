@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 /*.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -60,6 +56,49 @@ a {
   background: grey;
   padding: 20px;
 } */
+
+.container {
+  max-width: 100%;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: gray;
+  height: 600px;
+  align-content: space-around;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 1px solid black;
+  color: white;
+  font-size: 2rem;
+}
+.box-2 {
+  background: yellow;
+  color: black;
+  width: 400px;
+}
+.box-3 {
+  background: orange;
+  width: 250px;
+}
+.box-4 {
+  background: blue;
+}
+.box-5 {
+  background: purple;
+}
+.box-6 {
+  background: black;
+}
 
 @media screen and (max-width: 500px) {
   .wrapper {
